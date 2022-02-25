@@ -1,0 +1,33 @@
+.col-custom {
+    flex: 0 0 20%;
+    max-width: 20%;
+}
+
+.property-list {
+    margin-bottom: 30px;
+    .card-body {
+        background-color: #f6f8f9 !important;
+    }
+    .property-name {
+        font-size: 1rem;
+    }
+    hr {
+        margin-top: 0.85rem;
+        margin-bottom: 0.85rem;
+    }
+    .icon-btn {
+        border: none;
+        background-color: none;
+        padding: 0px;
+        i {
+            font-weight: 300 !important;
+        }
+    }
+}
+
+.add-property-btn {
+    position: fixed;
+    z-index: 160;
+    right: 15px;
+    bottom: 15px;
+}

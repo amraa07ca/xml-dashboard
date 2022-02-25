@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Builders xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" DateGenerated="2019-12-18T21:25:16.361Z" xsi:noNamespaceSchemaLocation="NHlist-v7_6.xsd">
+  <Corporation>
+    <CorporateBuilderNumber>DRB</CorporateBuilderNumber>
+    <CorporateState>NC</CorporateState>
+    <CorporateName>DRB Group</CorporateName>
+    <Builder>
+      <BuilderNumber>ELEVATEHOMES</BuilderNumber>
+      <BrandName>Elevate Homes</BrandName>
+      <BrandLogo_Med ReferenceType="URL">https://www.elevate-homes.com/images/elevate-homes-logo.svg</BrandLogo_Med>
+      <BrandLogo_Sm ReferenceType="URL">https://www.elevate-homes.com/images/elevate-homes-logo.svg</BrandLogo_Sm>
+      <ReportingName>Elevate Homes</ReportingName>
+      <DefaultLeadsEmail LeadsPerMessage="All">bbrand@drbgroup.com</DefaultLeadsEmail>
+      <BuilderWebsite>http://www.elevate-homes.com</BuilderWebsite>
+      <Subdivision>
+        <SubdivisionNumber>FORGECREEK</SubdivisionNumber>
+        <SubdivisionName>Forge Creek</SubdivisionName>
+        <SalesOffice>
+          <Agent>Barry Brand</Agent>
+          <Address OutOfCommunity="0">
+            <Street1>44 Warm Wind Drive</Street1>
+            <City>Clayton</City>
+            <State>NC</State>
+            <ZIP>27527</ZIP>
+            <Geocode>
+              <Latitude>35.661246</Latitude>
+              <Longitude>-78.339058</Longitude>
+            </Geocode>
+          </Address>
+          <Phone>
+            <AreaCode>844</AreaCode>
+            <Prefix>543</Prefix>
+            <Suffix>3455</Suffix>
+          </Phone>
+          <Email>bbrand@drbgroup.com</Email>
+        </SalesOffice>
+        <SubDescription>Forge Creek is located in one of the fastest selling master planned communities in the Triangle – Flowers Plantation, an exciting, award-winning neighborhood. Upon visiting, you will find a serene backdrop of approximately 4,000 acres bordered by the Neuse River featuring the historic Dr. Watson Inn, lakes, miles of walking trails, three pools, a state-of-the-art clubhouse, and fitness center along with a spa.</SubDescription>
+        <SubImage SequencePosition="1" Title="Forge Creek Image" ReferenceType="URL" IsPreferredSubImage="1">https://www.elevate-homes.com/communities/forge-creek/images/slider/slider-1.jpg</SubImage>
+        <SubWebsite>https://www.elevate-homes.com/communities/forge-creek/</SubWebsite>
+        <Plan Type="SingleFamily">
+          <PlanNumber>EHFG01</PlanNumber>
+          <PlanName>Vertuoso</PlanName>
+          <BasePrice>284990</BasePrice>
+          <BaseSqft>1794</BaseSqft>
+          <Baths>2</Baths>
+          <Bedrooms>2</Bedrooms>
+          <Garage>2</Garage>
+          <Description>Virtuoso floorplan undecorated field model available now! Save yourself months off of the building process. This home is nicely equipped with a gas range, Bulk storage room (heated and cooled) Owners retreat attached to the Owners suite and much more! Don't wait, it is finished and waiting for you!</Description>
+          <PlanImages>
+            <ElevationImage SequencePosition="1" ReferenceType="URL" IsPreferredSubImage="1">https://www.elevate-homes.com/quick-deliveries/images/0/listingImg.jpg</ElevationImage>
+          </PlanImages>
+          <PlanWebsite>https://www.elevate-homes.com/quick-deliveries/?id=0</PlanWebsite>
+          <Spec Type="SingleFamily">
+            <SpecNumber>EHFG01-SPEC</SpecNumber>
+            <SpecAddress>
+              <SpecStreet1>675 Warm Wind Drive</SpecStreet1>
+              <SpecCounty>Johnston</SpecCounty>
+              <SpecCity>Clayton</SpecCity>
+              <SpecState>NC</SpecState>
+              <SpecZIP>27527</SpecZIP>
+            </SpecAddress>
+            <SpecPrice>284990</SpecPrice>
+          </Spec>
+        </Plan>
+      </Subdivision>
+    </Builder>
+  </Corporation>
+</Builders>

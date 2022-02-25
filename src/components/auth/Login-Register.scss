@@ -1,0 +1,68 @@
+#login, #register {
+    .view {
+        background-image: url("/assets/background/login-bg.jpg");
+        background-size: cover;
+        background-position: center center;
+        height: 100vh;
+    }
+    .card {
+        background-color: rgba(229, 228, 255, 0.2);
+    }
+    h6 {
+        line-height: 1.7;
+    }
+    .form-check {
+        margin-bottom: 0 !important;
+    }
+    .md-form {
+        label {
+            color: #ffffff;
+            margin-left: 2rem;
+        }
+        input {
+            color: white;
+            margin-bottom: 0px;
+            margin-left: 2rem;
+        }
+        input[type="text"]:focus:not([readonly]) + label,
+        input[type="password"]:focus:not([readonly]) + label,
+        input[type="email"]:focus:not([readonly]) + label {
+            color: #8edef8;
+        }
+        input[type="text"]:focus:not([readonly]),
+        input[type="password"]:focus:not([readonly]),
+        input[type="email"]:focus:not([readonly]) {
+            border-bottom: 1px solid #8edef8;
+            box-shadow: 0 1px 0 0 #8edef8;
+        }
+        .prefix {
+            font-size: 1rem;
+            margin-top: 14px;
+        }
+    }
+    .invalid {
+        .prefix {
+            color: #dc3545 !important;
+        }
+    }
+    .error-message {
+        margin-top: -1.3rem;
+        padding-left: 2rem;
+        font-size: 70%;
+        color: #ddec0d;
+        font-style: italic;
+    }
+}
+
+#register {
+    .logo {
+        margin-top: 3rem;
+        margin-bottom: 5rem;
+    }
+}
+
+
+
+
+
+

@@ -1,0 +1,81 @@
+.modal .editAddModal {
+    width: 95%;
+    max-width: 95%;
+    .modal-content {
+        background-color: transparent;
+        box-shadow: none;
+    }
+    .modalNav {
+        background-color: #069;
+        i {
+            font-size: 14px;
+            position: relative;
+            top: -1px;
+            margin-right: 5px;
+        }
+    }
+    .MDBTabContent {
+        box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+    }
+    .tab-pane {
+        height: 80vh;
+    }
+    .disabled {
+        color: #8e8e8e;
+    }
+    .input-wrap {
+        position: relative;
+        .error-message {
+            font-size: 10px;
+            font-style: italic;
+            position: absolute;
+            text-align: right;
+            color: #a90000;
+            right: 20px;
+            bottom: 1px;
+        }
+        .invalid {
+            label {
+                color: #a90000;
+            }
+            input {
+                border-color: #a90000;
+            }
+        }
+    }
+}
+
+.imageTab {
+    .dzu-dropzone {
+        height: 100%;
+    }
+    .drop-zone {
+        outline: none;
+    }
+}
+
+.content {
+    height: 85vh;
+    background-color: white;
+    padding: 1rem;
+    padding-top: 2rem;
+    .md-form {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .divider {
+        padding: 0px;
+        h6 {
+            font-size: 1rem;
+            margin-bottom: 0px;
+            color: #069;
+            font-weight: 600;
+        }
+        hr {
+            margin-top: 0px;
+            margin-bottom: 0px;
+            border-top: 1px dotted #069;
+            display: none;
+        }
+    }
+}
